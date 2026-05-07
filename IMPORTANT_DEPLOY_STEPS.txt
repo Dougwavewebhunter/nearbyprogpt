@@ -1,0 +1,15 @@
+NearbyPro final update steps
+
+1. Upload all extracted files to the root of your GitHub repo.
+2. In Supabase, open SQL Editor and run the SQL inside:
+   supabase/migrations/20260507013000_nearbypro_schema_fix_admin_chat_ads.sql
+   This fixes avatar_url, missing buckets, admin role, chat attachments, ads and extra service categories.
+3. In Netlify keep:
+   Build command: npm run build
+   Publish directory: dist
+   Base directory: leave blank
+4. Netlify environment variables must be:
+   VITE_SUPABASE_URL
+   VITE_SUPABASE_PUBLISHABLE_KEY
+   VITE_SUPABASE_PROJECT_ID
+5. Trigger deploy: Clear cache and deploy site.
