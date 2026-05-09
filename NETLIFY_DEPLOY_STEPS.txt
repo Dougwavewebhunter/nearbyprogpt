@@ -1,0 +1,11 @@
+NETLIFY DEPLOYMENT STEPS FOR NEARBYPRO
+
+Build command: npm run build
+Publish directory: dist
+Node version: 20
+
+Environment Variables:
+VITE_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY
+
+Do NOT add Supabase service role/admin secret key to Netlify frontend variables.

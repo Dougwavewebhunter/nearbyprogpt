@@ -1,0 +1,23 @@
+NEARBYPRO UPGRADED BUILD SUMMARY
+
+Updates included:
+- Desktop sponsored ads now start lower so they do not invade the hero section on laptop/desktop screens.
+- Added automatic scroll-to-top on route changes so pages no longer open at the footer.
+- Improved mobile request chat spacing and made the message input easier to find.
+- Added file/emoji action buttons to the request chat input area.
+- Added live request date/time and views display.
+- Added request detail views and chat count display.
+- Added share buttons to provider profiles: WhatsApp, Facebook, and copy profile link.
+- Added professional provider profile URLs using /pro/:id/:slug.
+- Added clear dashboard action buttons: Provide your services, Look for service providers, Post a job / request help.
+- Added Google and Facebook login buttons. You must still enable/configure OAuth in Supabase after your final domain is connected.
+- Added Play Store launch coming soon badge in footer.
+- Improved install app popup delay and wording for browser notifications.
+- Added Vercel deployment config.
+- Added Node 20 pin for stable builds.
+
+Required environment variables for Vercel or Netlify:
+VITE_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY
+
+Do not place Supabase service role/admin secret key in frontend hosting environment variables.

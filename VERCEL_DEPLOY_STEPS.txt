@@ -1,0 +1,17 @@
+VERCEL DEPLOYMENT STEPS FOR NEARBYPRO
+
+1. Upload this FULL folder to a fresh GitHub repository.
+2. Go to Vercel and click Add New Project.
+3. Import the GitHub repository.
+4. Add Environment Variables:
+   VITE_SUPABASE_URL
+   VITE_SUPABASE_ANON_KEY
+5. Do NOT add the Supabase service role/admin secret key to Vercel.
+6. Deploy.
+7. After the Vercel link works, connect your custom domain.
+8. After the final domain works, set Google/Facebook OAuth redirect URLs in Supabase and in Google/Facebook developer settings.
+
+Recommended Supabase redirect URLs later:
+https://nearbypro.co.za/dashboard
+https://www.nearbypro.co.za/dashboard
+https://your-vercel-project.vercel.app/dashboard
