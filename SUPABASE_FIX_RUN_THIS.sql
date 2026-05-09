@@ -1,6 +1,0 @@
--- This is an instruction helper only.
--- Because you already ran the older migrations, run this NEWEST migration now:
--- supabase/migrations/20260507143000_nearbypro_request_chat_subscriptions_ui_fix.sql
---
--- Open that file, copy the full SQL code, paste it into Supabase SQL Editor, and click RUN.
--- Do not paste this instruction file into Supabase.
